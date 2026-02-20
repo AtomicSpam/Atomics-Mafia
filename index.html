@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atomics Mafia</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/peerjs!1.5.2/dist/peerjs.min.js"></script>
+</head>
+<body>
+<h1>Atomics Mafia</h1>
+
+<div id="menu">
+    <button id="createBtn">Create Room</button>
+    <input type="text" id="roomInput" placeholder="Enter Room ID">
+    <button id="joinBtn">Join Room</button>
+</div>
+
+<div id="lobby" style="display:none;">
+    <h2>Room Code: <span id="roomCode"></span></h2>
+    <h3>Players:</h3>
+    <ul id="playerList"></ul>
+</div>
+
+><script src="main.js"></script>
+</body>
+</html>
