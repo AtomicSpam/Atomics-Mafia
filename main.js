@@ -79,7 +79,9 @@ joinBtn.onclick = () => {
 //functions
 
 function showLobby() {
-    document.getElementById('home').style.display = 'none';
+    const menu = document.getElementById("menu");
+
+    if (menu) menu.style.display = 'none';
     lobbyDiv.style.display = 'block';
 }
 
